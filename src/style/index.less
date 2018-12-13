@@ -1,6 +1,10 @@
 @import "template/head";
 @import "template/foot";
 @import "template/positionList";
+@import "template/position";
+@import "template/positionInfo";
+@import "template/company";
+@import "template/companyClass";
 
 .fs(@px) {
   font-size: unit(@px / 37.5,rem);
@@ -48,5 +52,10 @@ html,body{
 body{
   .fs(16);
   background-color: @bodyBgColor
+}
+button{
+  outline-width: 0;
+  border-style: none;
+  border-width: 0;
 }
 

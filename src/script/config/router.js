@@ -5,6 +5,15 @@ angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($s
         url: '/main',
         templateUrl:'view/main.html',
         controller:'mainCtrl'
+    }).state('position',{
+        url:'/position/:id',
+        templateUrl:'view/template/position.html',
+        controller:'positionCtrl'
+    }).state('company',{
+        url:'/company/:id',
+        templateUrl:'view/company.html',
+        controller:'companyCtrl'
     });
+    
     $urlRouterProvider.otherwise('main')
 }])
