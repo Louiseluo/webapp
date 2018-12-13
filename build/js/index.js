@@ -29,8 +29,13 @@ angular.module('app').controller('companyCtrl',['$scope',function ($scope) {
 }])
 
 'use strict';
-angular.module('app').controller('mainCtrl',['$http','$scope',function ($scope) {
-    $scope.list = [
+angular.module('app').controller('mainCtrl',['$http','$scope',function ($http,$scope) {
+    $http.get('/data/positionList.json').then(function (res) {
+        $scope.list = res.data
+    }).catch(function (error) {
+        console.log(error)
+    })
+    /*$scope.list = [
         {
             id:'1',
             imgSrc:'image/company-3.png',
@@ -50,12 +55,17 @@ angular.module('app').controller('mainCtrl',['$http','$scope',function ($scope) 
             time:'2016-06-01 11：05',
         },
 
-    ]
+    ]*/
 }]);
 
 'use strict';
 
-angular.module('app').controller('positionCtrl',['$scope',function ($scope) {
+angular.module('app').controller('positionCtrl',['$http','$state','$scope',function ($http,$state,$scope) {
+    $scope.isLogin = false;
+    $http.get('/data/position.json?id='+$state.params.id).then(function (res) {
+        console.log(res)
+        $scope.position = res.data
+    })
 
 }])
 
@@ -125,7 +135,9 @@ angular.module('app').directive('appPositionInfo',[function () {
         replace:true,
         templateUrl:'view/template/positionInfo.html',
         scope:{
-            isActive:'='
+            isActive:'=',
+            isLogin:'=',
+            pos:'='
         },
         link:function ($scope) {
             $scope.imagePath = $scope.isActive?'image/star-active.png':'image/star.png';
