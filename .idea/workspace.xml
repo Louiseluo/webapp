@@ -2,21 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="972c68d1-8ac8-4e46-b805-7e622039ba1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/script/controller/searchCtrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/script/directive/sheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/script/directive/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/script/service/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/template/search.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/template/sheet.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/style/template/tab.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/template/sheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/template/tab.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/data/company.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/data/company.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/view/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/view/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/view/template/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/view/template/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/view/template/companyClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/view/template/companyClass.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/view/template/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/view/template/position.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/view/template/positionInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/view/template/positionInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/view/template/positionList.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/view/template/positionList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/data/company.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/data/company.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/view/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/view/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/view/template/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/view/template/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/view/template/companyClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/view/template/companyClass.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/view/template/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/view/template/position.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/view/template/positionInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/view/template/positionInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/view/template/positionList.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/view/template/positionList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script/controller/mainCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/controller/mainCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gulp-plumber/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp-plumber/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/company.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/company.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/config/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/config/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/controller/companyCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/controller/companyCtrl.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/script/controller/positionCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/controller/positionCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/script/directive/positionInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/directive/positionInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/directive/company.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/directive/company.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/directive/companyClass.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/directive/companyClass.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/template/position.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/template/position.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/varlable.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/varlable.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/template/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/template/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/template/companyClass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/template/companyClass.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/template/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/template/position.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/template/positionInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/template/positionInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/template/positionList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/template/positionList.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,64 +61,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/script/controller/mainCtrl.js">
+        <entry file="file://$PROJECT_DIR$/src/view/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="152">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/script/controller/positionCtrl.js">
+        <entry file="file://$PROJECT_DIR$/src/style/template/sheet.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/index.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="28" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/script/directive/sheet.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/template/sheet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="20" />
+              <folding>
+                <element signature="n#ul#0;n#div#0;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/script/directive/tab.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/template/tab.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/style/varlable.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/script/controller/companyCtrl.js">
+        <entry file="file://$PROJECT_DIR$/src/script/controller/searchCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/template/positionInfo.html">
+        <entry file="file://$PROJECT_DIR$/src/style/template/positionList.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/data/position.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/view/template/position.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/script/directive/positionInfo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="380">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -99,8 +160,8 @@
       <list>
         <option value="XSLT Stylesheet" />
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Less File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -114,6 +175,7 @@
       <find>controller</find>
       <find>ng-scope</find>
       <find>&lt;div ui-view=&quot;&quot; class=&quot;ng-scope&quot;&gt;</find>
+      <find>position-desc</find>
     </findStrings>
     <dirStrings>
       <dir>E:\learn\angular\webapp\src</dir>
@@ -125,16 +187,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/script/index.js" />
-        <option value="$PROJECT_DIR$/dist/js/index.js" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/dist/js/app.js" />
-        <option value="$PROJECT_DIR$/src/script/app.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/dist/index.html" />
-        <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/src/script/directive/head.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/style/property.less" />
         <option value="$PROJECT_DIR$/src/script/directive/foot.js" />
         <option value="$PROJECT_DIR$/src/style/template/foot.less" />
@@ -151,33 +204,47 @@
         <option value="$PROJECT_DIR$/src/style/template/head.less" />
         <option value="$PROJECT_DIR$/src/view/template/headBar.html" />
         <option value="$PROJECT_DIR$/src/script/directive/headBar.js" />
-        <option value="$PROJECT_DIR$/src/script/directive/company.js" />
         <option value="$PROJECT_DIR$/src/style/template/positionInfo.less" />
-        <option value="$PROJECT_DIR$/src/style/template/position.less" />
-        <option value="$PROJECT_DIR$/src/script/config/router.js" />
-        <option value="$PROJECT_DIR$/src/script/controller/companyCtrl.js" />
-        <option value="$PROJECT_DIR$/src/view/template/company.html" />
         <option value="$PROJECT_DIR$/src/style/template/company.less" />
-        <option value="$PROJECT_DIR$/src/script/directive/companyClass.js" />
-        <option value="$PROJECT_DIR$/src/view/company.html" />
-        <option value="$PROJECT_DIR$/src/style/index.less" />
-        <option value="$PROJECT_DIR$/src/style/varlable.less" />
-        <option value="$PROJECT_DIR$/src/view/template/companyClass.html" />
         <option value="$PROJECT_DIR$/src/style/template/companyClass.less" />
         <option value="$PROJECT_DIR$/dist/view/template/positionList.html" />
         <option value="$PROJECT_DIR$/src/view/template/positionList.html" />
         <option value="$PROJECT_DIR$/src/script/controller/mainCtrl.js" />
         <option value="$PROJECT_DIR$/src/script/directive/positionInfo.js" />
         <option value="$PROJECT_DIR$/src/view/template/positionInfo.html" />
+        <option value="$PROJECT_DIR$/src/script/directive/company.js" />
+        <option value="$PROJECT_DIR$/src/view/template/company.html" />
         <option value="$PROJECT_DIR$/src/view/template/position.html" />
+        <option value="$PROJECT_DIR$/src/style/template/position.less" />
+        <option value="$PROJECT_DIR$/src/view/company.html" />
+        <option value="$PROJECT_DIR$/src/data/company.json" />
+        <option value="$PROJECT_DIR$/src/script/controller/companyCtrl.js" />
+        <option value="$PROJECT_DIR$/src/view/template/companyClass.html" />
+        <option value="$PROJECT_DIR$/src/script/directive/companyClass.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/script/app.js" />
+        <option value="$PROJECT_DIR$/src/script/service/cache.js" />
         <option value="$PROJECT_DIR$/src/script/controller/positionCtrl.js" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/script/config/router.js" />
+        <option value="$PROJECT_DIR$/src/style/template/search.less" />
+        <option value="$PROJECT_DIR$/src/script/directive/tab.js" />
+        <option value="$PROJECT_DIR$/src/view/template/tab.html" />
+        <option value="$PROJECT_DIR$/src/style/template/tab.less" />
+        <option value="$PROJECT_DIR$/src/script/controller/searchCtrl.js" />
+        <option value="$PROJECT_DIR$/src/view/search.html" />
+        <option value="$PROJECT_DIR$/src/style/index.less" />
+        <option value="$PROJECT_DIR$/src/script/directive/sheet.js" />
+        <option value="$PROJECT_DIR$/src/view/template/sheet.html" />
+        <option value="$PROJECT_DIR$/src/style/varlable.less" />
+        <option value="$PROJECT_DIR$/src/style/template/sheet.less" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="747" />
-    <option name="y" value="46" />
-    <option name="width" value="1098" />
+    <option name="x" value="581" />
+    <option name="y" value="72" />
+    <option name="width" value="1076" />
     <option name="height" value="923" />
   </component>
   <component name="ProjectView">
@@ -185,6 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,13 +269,27 @@
               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="script" type="462c0819:PsiDirectoryNode" />
+              <item name="directive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
@@ -215,11 +297,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,6 +319,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -291,7 +380,9 @@
       <workItem from="1544406071765" duration="8875000" />
       <workItem from="1544491897968" duration="14484000" />
       <workItem from="1544577490767" duration="17032000" />
-      <workItem from="1544663651777" duration="23308000" />
+      <workItem from="1544663651777" duration="23362000" />
+      <workItem from="1544750125989" duration="16588000" />
+      <workItem from="1545008987970" duration="10624000" />
     </task>
     <task id="LOCAL-00001" summary="sublime">
       <created>1544496286027</created>
@@ -314,11 +405,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544691083950</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sublime">
+      <created>1544695722590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1544695722590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68755000" />
+    <option name="totallyTimeSpent" value="96021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,17 +428,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="747" y="46" width="1098" height="923" extended-state="0" />
+    <frame x="796" y="24" width="1076" height="923" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23679246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23410405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Gulp" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49811321" visible="true" weight="0.15462612" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49811321" visible="true" weight="0.12420786" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -348,7 +446,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286385" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5018868" side_tool="true" weight="0.32818532" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33333334" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3329114" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,177 +481,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="sublime" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/script/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../angular拉勾项目/project/u0opgu/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/property.less" />
-    <entry file="file://$PROJECT_DIR$/src/script/directive/head.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/directive/foot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../angular拉勾项目/project/u0opgu/src/view/template/foot.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/template/foot.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/template/foot.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../angular拉勾项目/project/u0opgu/src/script/controller/mainCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../angular拉勾项目/project/u0opgu/src/data/positionList.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-533" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/directive/positionList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/template/positionList.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/view/template/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/view/template/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/template/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="92" selection-start-column="92" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/template/head.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#110#141#0" />
-            <element signature="e#151#303#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/view/template/positionList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/directive/headBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/directive/company.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/template/positionInfo.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/template/position.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/config/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -571,34 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/template/company.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/directive/companyClass.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/varlable.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/data/city.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -610,20 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/template/companyClass.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -657,17 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/company.html">
+    <entry file="file://$PROJECT_DIR$/src/view/template/positionInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/template/positionList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -678,6 +560,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/position.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/template/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="941" selection-start-column="941" selection-end-column="941" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/template/position.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/script/directive/positionInfo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -685,38 +595,233 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/template/positionInfo.html">
+    <entry file="file://$PROJECT_DIR$/src/view/template/positionList.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="133">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/data/position.json">
+    <entry file="file://$PROJECT_DIR$/src/view/template/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/directive/foot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/directive/head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/directive/headBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/company.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="12" />
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/template/position.html">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/template/companyClass.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/directive/company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/company.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/directive/companyClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/service/cache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script/controller/companyCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="126" column="3" selection-start-line="126" selection-start-column="3" selection-end-line="126" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/orchestrator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="272" column="8" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/template/search.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/config/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/controller/positionCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/template/tab.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/controller/positionCtrl.js">
+    <entry file="file://$PROJECT_DIR$/src/script/directive/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/template/tab.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/controller/searchCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/template/positionList.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/directive/sheet.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/template/sheet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/index.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/varlable.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/template/sheet.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
       </provider>
     </entry>

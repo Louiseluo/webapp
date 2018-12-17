@@ -1,30 +1,16 @@
 'use strict';
 
-angular.module('app',['ui.router']);
+angular.module('app',['ui.router','ngCookies']);
 
 'use strict';
 
-angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
-    $stateProvider.state('main',{
-        url: '/main',
-        templateUrl:'view/main.html',
-        controller:'mainCtrl'
-    }).state('position',{
-        url:'/position/:id',
-        templateUrl:'view/template/position.html',
-        controller:'positionCtrl'
-    }).state('company',{
-        url:'/company/:id',
-        templateUrl:'view/company.html',
-        controller:'companyCtrl'
-    });
-    
-    $urlRouterProvider.otherwise('main')
-}])
+angular.module('app').controller('companyCtrl',['$state','$scope','$http',function ($state,$scope,$http) {
+    $http.get('data/company.json?id='+$state.params.id).then(function (res) {
+        $scope.company = res.data;
+        // console.log(res.data)
+    }).catch(function (error) {
 
-'use strict';
-
-angular.module('app').controller('companyCtrl',['$scope',function ($scope) {
+    })
 
 }])
 
@@ -60,15 +46,66 @@ angular.module('app').controller('mainCtrl',['$http','$scope',function ($http,$s
 
 'use strict';
 
-angular.module('app').controller('positionCtrl',['$http','$state','$scope',function ($http,$state,$scope) {
+angular.module('app').controller('positionCtrl',['$q','$http','$state','$scope','cache',function ($q,$http,$state,$scope,cache) {
     $scope.isLogin = false;
-    $http.get('/data/position.json?id='+$state.params.id).then(function (res) {
-        console.log(res)
-        $scope.position = res.data
+    cache.put('mine','select')
+    function getPosition(){
+        var def = $q.defer();
+        $http.get('/data/position.json?id='+$state.params.id).then(function (res) {
+            $scope.position = res.data
+            def.resolve(res.data);
+        }).catch(function (error) {
+            def.reject(error);
+        });
+        return def.promise;
+    }
+    function getCompany(id){
+        $http.get('data/company.json?id='+id).then(function (res) {
+            $scope.company = res.data;
+        })
+    }
+    getPosition().then(function (obj) {
+        getCompany(obj.companyId)
+    });
+
+
+}])
+
+
+'use strict';
+
+angular.module('app').controller('searchCtrl',['$http','$scope',function ($http,$scope) {
+    $http.get('data/positionList.json').then(function (res) {
+        $scope.positionList = res.data;
+    }).catch(function (error) {
+        console.log(error)
     })
 
 }])
 
+'use strict';
+
+angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($stateProvider, $urlRouterProvider) {
+    $stateProvider.state('main',{
+        url: '/main',
+        templateUrl:'view/main.html',
+        controller:'mainCtrl'
+    }).state('position',{
+        url:'/position/:id',
+        templateUrl:'view/template/position.html',
+        controller:'positionCtrl'
+    }).state('company',{
+        url:'/company/:id',
+        templateUrl:'view/company.html',
+        controller:'companyCtrl'
+    }).state('search',{
+        url:'/search',
+        templateUrl:'view/search.html',
+        controller:'searchCtrl'
+    });
+
+    $urlRouterProvider.otherwise('main')
+}])
 
 'use strict';
 
@@ -76,6 +113,9 @@ angular.module('app').directive('appCompany',[function () {
     return{
         restrict:'A',
         replace:true,
+        scope:{
+            com:'='
+        },
         templateUrl:'view/template/company.html',
     }
 }])
@@ -86,7 +126,20 @@ angular.module('app').directive('appCompanyClass',[function () {
     return{
         restrict:'A',
         replace:true,
+        scope:{
+            com:'='
+        },
         templateUrl:'view/template/companyClass.html',
+
+        link:function ($scope) {
+            $scope.showPositionList = function (idx) {
+                $scope.positionList = $scope.com.positionClass[idx].positionList;
+                $scope.isActive = idx;
+            };
+            $scope.$watch('com',function (newval) {
+                if(newval)$scope.showPositionList(0);
+            })
+        }
     }
 }])
 
@@ -157,3 +210,50 @@ angular.module('app').directive('appPositionList',[function () {
         }
     }
 }])
+
+'use strict';
+
+angular.module('app').directive('appSheet',[function () {
+    return{
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/sheet.html'
+    }
+}])
+
+'use strict';
+
+angular.module('app').directive('appTab',[function () {
+    return{
+        restrict:'A',
+        replace:true,
+        templateUrl:'view/template/tab.html',
+    }
+}])
+
+'use strict';
+angular.module('app')
+    .factory('cache',['$cookies',function ($cookies) {
+        return{
+            put: function (key, value) {
+              $cookies.put(key,value);
+            },
+            get: function (key) {
+              return $cookies.get(key);
+            },
+            remove: function (key) {
+              $cookies.remove(key);
+            },
+        }
+    }]);
+/*    .service('cache',['$cookies',function ($cookies) {
+    this.put=function (key, value) {
+        $cookies.put(key,value);
+    };
+    this.get = function (key) {
+        return $cookies.get(key);
+    };
+    this.remove = function (key) {
+        $cookies.remove(key);
+    };
+}])*/

@@ -31,6 +31,7 @@ gulp.task('json',function () {
 
 gulp.task('less',function () {
     gulp.src(app.srcPath + 'style/index.less')
+        .pipe($.plumber())
         .pipe($.less())
         .pipe(gulp.dest(app.devPath +'css'))
         .pipe($.cssmin())
