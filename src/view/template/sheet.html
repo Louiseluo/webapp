@@ -1,12 +1,8 @@
-<div class="sheet">
+<div class="sheet" ng-show="visible" ng-click="visible = false">
     <div class="wrap">
         <ul>
-            <li>不限</li>
-            <li>少于50人</li>
-            <li>50~100人</li>
-            <li>100~500人</li>
-            <li>500人以上</li>
+            <li ng-click="select(item)" ng-repeat="item in list" ng-bind="item.name" ></li>
         </ul>
-        <button>取消</button>
+        <button ng-click="visible = false">取消</button>
     </div>
 </div>

@@ -53,6 +53,9 @@
 .ml-20 {
   margin-left: 20px;
 }
+.mt-40 {
+  margin-top: 40px;
+}
 .head {
   background-color: #12d5b5;
   height: 1.06666667rem;
@@ -213,6 +216,7 @@
   position: fixed;
   left: 0;
   right: 0;
+  top: 0;
   height: 1.06666667rem;
   line-height: 1.06666667rem;
 }
@@ -242,6 +246,9 @@
   color: #9f9e9d;
   padding-left: 20px;
   margin-left: 10px;
+}
+.search-list {
+  margin-top: 2.13333333rem;
 }
 .tab {
   background-color: #eee;
@@ -285,10 +292,12 @@
 }
 .sheet .wrap li,
 .sheet .wrap button {
+  font-size: 0.42666667rem;
   height: 1.33333333rem;
   line-height: 1.33333333rem;
   width: 100%;
-  background-color: #fff;
+  color: #1063e5;
+  background-color: #f1f2f3;
 }
 .sheet .wrap button {
   margin-top: 8px;
@@ -298,11 +307,172 @@
   margin: 0;
   border-radius: 5px;
   overflow: hidden;
+  max-height: 500px;
 }
 .sheet .wrap ul li {
   list-style: none;
   display: block;
   text-align: center;
+  border-bottom: 1px solid #d4d4d4;
+}
+.login {
+  background-image: url("../image/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.login form {
+  margin-top: 6.93333333rem;
+  text-align: center;
+}
+.login form .form-line {
+  margin-left: auto ;
+  margin-right: auto;
+  box-sizing: content-box;
+  font-size: 0;
+  text-align: left;
+  width: 8rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+.login form .form-line input {
+  border-width: 0;
+  outline-width: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: inline-block;
+  box-sizing: content-box;
+  width: 5.73333333rem;
+  font-size: 0.37333333rem;
+  padding-left: 0.8rem;
+}
+.login form .form-line input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.login form .form-line:first-child {
+  border-bottom: 1px solid #ffffff;
+}
+.login form .form-line .account,
+.login form .form-line .lock {
+  background-image: url("../image/account.png");
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-position: 50% 50%;
+  display: inline-block;
+  height: 1.06666667rem;
+  width: 1.46666667rem;
+  vertical-align: top;
+}
+.login form .form-line .lock {
+  background-image: url("../image/lock.png");
+}
+.login form button {
+  width: 8rem;
+  height: 1.06666667rem;
+  font-size: 22px;
+  font-weight: bold;
+}
+.login form button.login-btn {
+  background-color: #12d5b5;
+  color: #fff;
+  margin-top: 2rem;
+}
+.login form button.register-btn {
+  margin-top: 0.66666667rem;
+  background-color: rgba(203, 233, 228, 0.5);
+  color: #01c2a3;
+  border: 1px solid #01c2a3;
+}
+/*@import "template/favorite";
+@import "template/me";
+@import "template/post";*/
+.register {
+  background-image: url("../image/background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+.register form {
+  margin-top: 4.26666667rem;
+  text-align: center;
+}
+.register form .form-line {
+  margin-left: auto ;
+  margin-right: auto;
+  box-sizing: content-box;
+  font-size: 0;
+  text-align: left;
+  width: 8rem;
+  height: 1.06666667rem;
+  line-height: 1.06666667rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+.register form .form-line input {
+  border-width: 0;
+  outline-width: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: inline-block;
+  box-sizing: content-box;
+  width: 5.73333333rem;
+  font-size: 0.37333333rem;
+  padding-left: 0.8rem;
+}
+.register form .form-line input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.register form .form-line:first-child {
+  border-bottom: 1px solid #ffffff;
+}
+.register form .form-line .account,
+.register form .form-line .lock {
+  background-image: url("../image/account.png");
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-position: 50% 50%;
+  display: inline-block;
+  height: 1.06666667rem;
+  width: 1.46666667rem;
+  vertical-align: top;
+}
+.register form .form-line .lock {
+  background-image: url("../image/lock.png");
+}
+.register form .form-line .message {
+  display: inline-block;
+  height: 1.06666667rem;
+  width: 1.46666667rem;
+  color: #01c2a3;
+  background-color: rgba(203, 233, 228, 0.5);
+  font-size: 0.32rem;
+}
+.register form button {
+  width: 8rem;
+  height: 1.06666667rem;
+  font-size: 22px;
+  font-weight: bold;
+}
+.register form button.login-btn {
+  background-color: #12d5b5;
+  color: #fff;
+  margin-top: 2rem;
+}
+.register form button.register-btn {
+  margin-top: 0.66666667rem;
+  background-color: rgba(203, 233, 228, 0.5);
+  color: #01c2a3;
+  border: 1px solid #01c2a3;
 }
 html,
 body {
