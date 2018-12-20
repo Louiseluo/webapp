@@ -1,5 +1,18 @@
 'use strict';
 
 angular.module('app').controller('postCtrl',['dict','$http','$scope',function (dict,$http,$scope) {
-
+    $scope.tabList = [
+        {
+            id:'all',
+            name:'全部'
+        },
+        {
+            id:'pass',
+            name:'邀请面试'
+        },
+        {
+            id:'fail',
+            name:'不合适'
+        },
+    ];
 }]);

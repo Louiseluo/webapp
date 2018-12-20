@@ -1,18 +1,18 @@
 <div class="register">
-    <form>
+    <form name="form">
         <div class="form-line">
             <span class="account"></span>
-            <input type="text" placeholder="请输入手机号">
+            <input ng-model="user.phone" validator="phone" type="text" placeholder="请输入手机号">
         </div>
         <div class="form-line">
             <span class="lock"></span>
-            <input type="text" placeholder="设置6位以上的密码">
+            <input ng-model="user.password" validator="password" type="password" placeholder="设置6位以上的密码" autocomplete="user.password">
         </div>
         <div class="form-line mt-40">
-            <input type="text" placeholder="短信验证码">
-            <span class="message">发送短信</span>
+            <input ng-model="user.code" type="text" placeholder="短信验证码">
+            <span class="message" ng-click="time?1==1:send();" ng-bind="time?time:'发送短信'"></span>
         </div>
         <button class="login-btn">登录</button>
-        <button class="register-btn">注册</button>
+        <button class="register-btn"  validation-submit="form" ng-click="submit()">注册</button>
     </form>
 </div>

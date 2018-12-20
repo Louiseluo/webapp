@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app',['ui.router','ngCookies']);
+angular.module('app',['ui.router','ngCookies','validation']);
 
 'use strict';
 //创建全局变量
@@ -66,6 +66,28 @@ angular.module('app').config(['$stateProvider','$urlRouterProvider',function ($s
     })
 
     $urlRouterProvider.otherwise('main')
+}])
+
+'use strict';
+
+angular.module('app').config(['$validationProvider',function ($validationProvider) {
+    let expression = {
+        phone:/^1[\d]{10}/,
+        password:function (value) {
+            return value.length > 5;
+        }
+    };
+    let defaultMsg = {
+        phone: {
+            success:'',
+            error:'必须是11位手机号'
+        },
+        password: {
+            success:'',
+            error:'长度至少6位'
+        },
+    };
+    $validationProvider.setExpression(expression).setDefaultMsg(defaultMsg);
 }])
 
 'use strict';
@@ -159,13 +181,46 @@ angular.module('app').controller('positionCtrl',['$q','$http','$state','$scope',
 'use strict';
 
 angular.module('app').controller('postCtrl',['dict','$http','$scope',function (dict,$http,$scope) {
-
+    $scope.tabList = [
+        {
+            id:'all',
+            name:'全部'
+        },
+        {
+            id:'pass',
+            name:'邀请面试'
+        },
+        {
+            id:'fail',
+            name:'不合适'
+        },
+    ];
 }]);
 
 'use strict';
 
-angular.module('app').controller('meCtrl',['dict','$http','$scope',function (dict,$http,$scope) {
-
+angular.module('app').controller('registerCtrl',['$interval','dict','$http','$scope',function ($interval,dict,$http,$scope) {
+    $scope.submit = function () {
+        console.log($scope.user);
+    };
+    $scope.send = function () {
+        $http.get('data/code.json').then(function (res) {
+            console.log(res);
+            $scope.time = '60s';
+            if(1===res.data.state){
+                let count = 60;
+                let interval = $interval(function () {
+                    if(count<=0){
+                        $interval.cancel(interval);
+                        $scope.time = '';
+                        return;
+                    }
+                    count--;
+                    $scope.time = count + 's'
+                },1000)
+            }
+        })
+    }
 }]);
 
 'use strict';

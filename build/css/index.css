@@ -94,7 +94,7 @@
 }
 .foot li {
   font-size: 20px;
-  width: 33%;
+  width: 33.33%;
   color: #9f9e9d;
 }
 .foot li.select {
@@ -389,8 +389,34 @@
   color: #01c2a3;
   border: 1px solid #01c2a3;
 }
+.me img {
+  margin-top: 1.6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.me .name {
+  margin-top: 0.66666667rem;
+}
+.me .btns {
+  margin-top: 1.06666667rem;
+}
+.me .btns button {
+  background-color: #12d5b5;
+  color: #fff;
+  font-size: 0.42666667rem;
+  width: 4rem;
+  height: 2.53333333rem;
+  margin-right: 0.32rem;
+  margin-left: 0.32rem;
+}
+.me .btns button.logout {
+  background-color: red;
+  width: 9.06666667rem;
+  height: 1.06666667rem;
+  margin-top: 0.53333333rem;
+}
 /*@import "template/favorite";
-@import "template/me";
+
 @import "template/post";*/
 .register {
   background-image: url("../image/background.png");
@@ -412,6 +438,7 @@
   box-sizing: content-box;
   font-size: 0;
   text-align: left;
+  position: relative;
   width: 8rem;
   height: 1.06666667rem;
   line-height: 1.06666667rem;
@@ -428,9 +455,21 @@
   width: 5.73333333rem;
   font-size: 0.37333333rem;
   padding-left: 0.8rem;
+  color: #ffffff;
 }
 .register form .form-line input::-webkit-input-placeholder {
   color: #ffffff;
+}
+.register form .form-line input.ng-invalid + span {
+  position: absolute;
+  color: red;
+  right: 0;
+  height: 100%;
+  text-align: right;
+  font-size: 12px;
+}
+.register form .form-line input.ng-invalid + span p {
+  margin: 0;
 }
 .register form .form-line:first-child {
   border-bottom: 1px solid #ffffff;
@@ -456,6 +495,7 @@
   color: #01c2a3;
   background-color: rgba(203, 233, 228, 0.5);
   font-size: 0.32rem;
+  text-align: center;
 }
 .register form button {
   width: 8rem;
